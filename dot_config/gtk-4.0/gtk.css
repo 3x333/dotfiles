@@ -1,0 +1,76 @@
+/* Base16 - Basic Dark (Marley) GTK 4 Theme */
+
+@define-color base00 #181818; /* background */
+@define-color base01 #282828;
+@define-color base02 #383838;
+@define-color base03 #585858;
+@define-color base04 #b8b8b8;
+@define-color base05 #d8d8d8; /* foreground */
+@define-color base06 #e8e8e8;
+@define-color base07 #f8f8f8;
+@define-color red     #ab4642;
+@define-color orange  #dc9656;
+@define-color yellow  #f7ca88;
+@define-color green   #a1b56c;
+@define-color cyan    #86c1b9;
+@define-color blue    #7cafc2;
+@define-color magenta #ba8baf;
+@define-color brown   #a16946;
+
+* {
+  background-color: @base00;
+  color: @base05;
+  border-color: @base03;
+  selection-background-color: @base02;
+  selection-color: @base05;
+  caret-color: @base05;
+}
+
+/* Focused elements */
+*:focus {
+  border-color: @blue;
+  outline-color: @blue;
+}
+
+/* Buttons and toggles */
+button,
+togglebutton {
+  background-color: @base01;
+  color: @base05;
+}
+
+button:hover,
+togglebutton:hover {
+  background-color: @base02;
+}
+
+button:active,
+togglebutton:checked {
+  background-color: @blue;
+  color: @base00;
+}
+
+/* Headers, titles */
+headerbar,
+.titlebar {
+  background-color: @base01;
+  color: @base05;
+}
+
+/* Entries */
+entry {
+  background-color: @base00;
+  color: @base05;
+  border-color: @base02;
+}
+
+entry:focus {
+  border-color: @blue;
+}
+
+/* Tooltips */
+tooltip {
+  background-color: @base01;
+  color: @base05;
+  border-color: @base03;
+}

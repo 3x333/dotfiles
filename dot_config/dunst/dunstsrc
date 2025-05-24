@@ -1,0 +1,8 @@
+[global]
+    font = JetBrainsMono Nerd Font 10
+    frame_width = 2
+    separator_height = 2
+    padding = 8
+    horizontal_padding = 16
+    timeout = 5
+    transparency = 0

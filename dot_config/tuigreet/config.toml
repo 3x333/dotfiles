@@ -1,0 +1,7 @@
+[theme]
+background = "#1e1e2e"
+foreground = "#eeeeee"
+border = "#89b4fa"
+prompt = "#89b4fa"
+highlight = "#ffffff"
+error = "#ff5555"
