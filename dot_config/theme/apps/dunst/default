@@ -1,0 +1,18 @@
+[global]
+frame_color = "#7cafc2"
+separator_color = "#7cafc2"
+
+[urgency_low]
+msg_urgency = "low"
+background = "#181818"     # base00
+foreground = "#b8b8b8"     # base04
+
+[urgency_normal]
+msg_urgency = "normal"
+background = "#181818"     # base00
+foreground = "#d8d8d8"     # base05
+
+[urgency_critical]
+msg_urgency = "critical"
+background = "#181818"     # base00
+foreground = "#ab4642"     # base08

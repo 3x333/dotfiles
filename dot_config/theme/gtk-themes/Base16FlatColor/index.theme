@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Base16 Dark
+Comment=dark, cold, clean
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Base16 Dark
+MetacityTheme=Base16 Dark
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

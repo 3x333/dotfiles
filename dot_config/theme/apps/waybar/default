@@ -1,0 +1,47 @@
+@define-color base00 #181818;
+@define-color base01 #282828;
+@define-color base02 #383838;
+@define-color base03 #585858;
+@define-color base04 #b8b8b8;
+@define-color base05 #d8d8d8;
+@define-color base06 #e8e8e8;
+@define-color base07 #f8f8f8;
+@define-color red     #ab4642;
+@define-color orange  #dc9656;
+@define-color yellow  #f7ca88;
+@define-color green   #a1b56c;
+@define-color cyan    #86c1b9;
+@define-color blue    #7cafc2;
+@define-color magenta #ba8baf;
+@define-color brown   #a16946;
+
+* {
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 13px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+window#waybar {
+  background-color: @base00;
+  color: @base05;
+  border-bottom: 2px solid @blue;
+}
+
+#workspaces button {
+  background: transparent;
+  color: @base04;
+  padding: 0 10px;
+  margin: 0 3px;
+  border-radius: 4px;
+}
+
+#workspaces button.active {
+  background-color: @blue;
+  color: @base00;
+}
+
+#clock, #battery, #pulseaudio, #network, #tray {
+  padding: 0 12px;
+}
